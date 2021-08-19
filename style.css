@@ -6,10 +6,10 @@
         scroll-behavior: smooth;
     }
     body::-webkit-scrollbar {
-         width: 10px;
+         width: 5px;
     }
     body::-webkit-scrollbar-track{
-        background-color: #ffffff;
+        background-color: #000000;
     }
     body::-webkit-scrollbar-thumb{
        background-color:#a68c68;
@@ -65,7 +65,7 @@
         text-align: right;
         display: inline-flex;
        text-decoration: none;
-        color: #431506;
+        color: #ffb678;
         padding: 20px 40px;
         font-size: 30px;
     }
