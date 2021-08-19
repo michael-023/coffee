@@ -1,0 +1,884 @@
+
+    *{
+        padding: 0%;
+        margin: 0%;
+        font-family: 'Staatliches', cursive;
+        scroll-behavior: smooth;
+    }
+    body::-webkit-scrollbar {
+         width: 10px;
+    }
+    body::-webkit-scrollbar-track{
+        background-color: #ffffff;
+    }
+    body::-webkit-scrollbar-thumb{
+       background-color:#a68c68;
+    }
+    .header{ 
+        height: max-content;
+        width: 100%;
+        background: url(images/cover.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .nav{
+        width: 100%;
+        height: 10vh;
+        background:transparent;
+        display: flex;
+       
+        flex-wrap: wrap;
+        position: fixed;
+        /*box-shadow: 0 0 11px rgba(33,33,33,.2); */
+    }
+    .logo{
+        width: 30%;
+        text-align: left;
+        
+    }
+    #logo{
+        width: 300px;
+        height: 80px;
+        background-image: url(images/logo.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .logo h2{
+        font-family: 'Staatliches', cursive;
+        margin-top: 2vh;
+        margin-left: 100px;
+        font-size: 40px;
+    }
+    .nav-mid{
+   
+        text-decoration: none;
+        width: 65%;
+        margin-top: 0.5vh;
+        text-align: right;
+        flex-direction: row-reverse;
+        display: inline-flex;
+    }
+   
+    .nav-mid a{
+        text-align: right;
+        display: inline-flex;
+       text-decoration: none;
+        color: #ff9500;
+        padding: 20px 40px;
+        font-size: 30px;
+    }
+    .min{
+       display: none;
+    }
+    #segment{
+        margin-top: 5vh;
+        margin-right: 100px;
+        font-size: 35px;
+    }
+    #segment1{display: none;
+        margin-top: 5vh;
+        margin-right: 100px;
+        font-size: 35px;
+    }
+    #navigation-div{
+        overflow: hidden;
+        width: 0%;
+        height: 80vh;
+        margin-right: -47%;
+        right: 50%;
+        border-radius: 5px;
+        text-align: center;
+        z-index: 99;
+        transition: ease-in-out .5s;
+        position: absolute;
+      
+        box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    }
+    
+    .page1{
+        height:75vh;
+        width: 100%;
+        margin: auto;
+     
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+       
+    }
+    
+    .page1-text{
+        height: 20vh;
+        width: 100%;
+        text-align:center;
+        font-family: 'Staatliches', cursive;
+        margin:auto auto;
+    }
+    .page1-text h2{
+        font-size: 70px;
+        color: rgb(79 ,42 ,6);
+    }
+    .page1-reserve-form{
+        margin: auto;
+        height: 65vh;
+        border-radius: 10px;
+        background-color: #a68c68;
+        box-shadow: 0 0 11px rgba(12, 12, 12, 0.2); 
+        background-position: center;
+        background-size: cover;
+        width: 30%;
+        
+    }
+    .page1-reserve-form h1{
+        text-align: center;
+        margin-top: 7vh;
+        font-size: 30px;
+    }
+    .reservation-form{
+        align-self: auto;
+        line-height: 45px;
+        margin-top: 5vh;
+
+    }
+    label{
+        margin-left: 20px;
+        font-size: 30px
+    }
+    #fname,#fmail,#fnumber,#fdate,#ftime{
+        background: transparent;
+        border-bottom: .5px solid white;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: auto;
+        font-size: 28px;
+        color: aliceblue;
+    }
+    #fsubmit{
+        margin-top: 35px;
+        margin-left: 30%;
+       background: none;
+        padding: 15px 50px;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: 25px;
+    }
+    
+    .about{
+        height:100vh;
+        width:100%;
+        
+        justify-content: center;
+       
+    }
+    .about-head{
+        height: 10vh;
+    }
+    .about h2{
+        font-family: 'Staatliches', cursive;
+        font-size: 40px;
+        margin-top: 5vh;
+        text-align: center;
+        
+    }
+    .about-section{
+        display: flex;
+        justify-content: center;
+    }
+    .about-img{
+        width: 40%;
+        height:70vh;
+        margin: auto;
+        background-image: url(images/cake.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .about-text{
+        width: 40%;
+      
+       
+        margin: auto;
+    }
+   
+    .about-detail-part-text h3{
+        font-size: 30px;
+    }
+    .about-detail-part{
+        display: flex;
+        height: max-content;
+        margin-top: 4vh;
+    }
+    video{
+        margin-top: 5vh;
+        width: 70px;
+        border-radius: 50%;
+    }
+    .about-detail-part-text{
+        width: 80%;
+        text-align: right;
+    }
+    
+    .featured{
+        height: max-content;
+        background-color: rgb(255, 255, 255);
+    }
+    .featured-heading{
+       display: flex;
+        height: 20vh;
+        text-align: center;
+    }
+    .featured-heading h1{
+        font-size: 40px;
+        margin: 10vh auto;
+    }
+    .featured-content{
+        height:max-content;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+        
+    }
+    .featured-content h2{
+        font-size: 30px;
+    }
+    .featured-content p{
+        font-size: 25px;
+    }
+    .featured-contents-one{
+        width: 90%;
+        display: flex;
+        height: 70vh;
+        background-color: rgb(255, 255, 255);
+        margin:55px auto ;
+        
+    }
+    .featured-text-coffee{
+        margin:10vh auto;
+        width: 55%;
+    }
+
+    .featured-image-coffee{
+        width: 40%;
+        height: 65vh;
+        margin: auto;
+        background: url(images/Coffee.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .featured-contents-two{
+        width: 90%;
+        display: flex;
+        flex-direction: row-reverse;
+        height: 70vh;
+        background-color: rgb(255, 255, 255);
+        margin:55px auto ;
+        
+    }
+    .featured-text-beverage{
+        width: 55%;
+        margin:10vh auto;
+        text-align: right;
+    }
+    .featured-image-beverage{
+        width: 40%;
+        height: 65vh;
+        margin: auto;
+        background: url(images/beverage.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .featured-contents-three{
+        width: 90%;
+        display: flex;
+        height: 70vh;
+        background-color: rgb(255, 255, 255);
+        margin:55px auto ;
+        
+    }
+    .featured-text-cake{
+        width: 55%;
+        margin:10vh auto;
+    }
+
+    .featured-image-cake{
+        width: 40%;
+        height: 65vh;
+        margin: auto;
+        background: url(images/cakes&muffins.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+
+
+
+
+    /*for tab devices*/
+@media (min-width:768px) and (max-width: 1366px) {
+    .header{
+        height: max-content;
+        z-index: 99;
+    }
+    .nav{
+        background-color:transparent;
+            
+    }
+
+    .logo{
+        width: 30%;
+        text-align: left;
+        }
+        #logo{
+            width: 300px;
+            height:140px;
+            background-image: url(images/logo.png);
+            background-position: center;
+            background-size: cover;
+        }
+        .logo h2{
+        margin-top: 5vh;
+        margin-left:50px;
+        font-size: 30px;
+    }
+    #segment{
+        margin-top: 5vh;
+        margin-right: 0px;
+        font-size: 35px;
+    }
+    #segment1{display: none;
+        margin-top: 5vh;
+        margin-right: 0px;
+        font-size: 35px;
+    }
+    .nav-mid{
+        text-decoration: none;
+        width: 70%;
+        margin-top: 0vh;
+        text-align: right;
+        display: inline-flex;
+        
+    }
+   
+    .nav-mid a{
+        text-align: right;
+        
+        display: inline-flex;
+       text-decoration: none;
+       margin-top: 3vh;
+        padding: 20px 20px;
+        font-size: 30px;
+    }
+    .min{
+       display: none;
+    }
+    #navigation-div{
+        width: 0%;
+        height: 80vh;
+        margin-right: -50%;
+        right: 50%;
+        border-radius: 5px;
+        text-align: center;
+        z-index: 99;
+        transition: ease-in-out .5s;
+        position: absolute;
+        background-color: white;
+        box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    }
+  
+    .page1{
+        height:55vh;
+        width: 100%;
+        margin: auto;
+       
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+       
+    }
+    .page1-text{
+      margin: 30vh auto;
+        
+    }
+    .page1-text-h1{
+        font-family: 'Staatliches', cursive;
+        font-size: 70px;
+        text-align: center;
+    }
+    .page1-reserve-form {
+        margin: auto;
+        height: max-content;
+        border-radius: 10px;
+        background-color: #a68c68;
+        background-position: center;
+        background-size: cover;
+        width: 58%;
+    }
+    .page1-reserve-form h1{
+        text-align: center;
+        margin-top: 4vh;
+        font-size: 30px;
+    }
+    .reservation-form{
+        align-self: auto;
+        line-height: 15px;
+        margin-top: 5vh;
+        height: max-content;
+    }
+    label{
+        margin-left: 20px;
+        font-size: 30px
+    }
+    #fname,#fmail,#fnumber,#fdate,#ftime{
+        background: transparent;
+        border-bottom: .5px solid white;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: auto;
+        font-size: 28px;
+        color: aliceblue;
+    }
+    #fsubmit{
+        margin-top: 35px;
+        margin-left: 30%;
+       background: none;
+        padding: 20px 40px;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: 25px;
+    }
+    .about{
+        height: max-content;
+    }
+    .about-head h2{
+        margin-top: 6vh;
+    }
+    .about-section{
+        height: max-content;
+    }
+   
+    .about-img{
+        width: 45%;
+        height: 80vh;
+       
+        background-image: url(images/cake.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .about-text{
+        width: 45%;
+        height: 50vh;
+       
+    }
+    .about-text{
+        width: 45%;
+        height:max-content;
+       
+        margin: auto 37px;
+    }
+  
+    .featured-text-coffee ,.featured-text-beverage ,.featured-text-cake{
+        margin: 15vh auto;
+    }
+    .featured-contents-one{
+        width: 90%;
+        display: flex;
+        height: 70vh;
+        background-color: rgb(255, 255, 255);
+        margin:55px auto ;
+        
+    }
+    .featured-text-coffee{
+        width:40%;
+    }
+    .featured-image-coffee{
+        width: 55%;
+        height: 65vh;
+        margin: auto;
+        background: url(images/Coffee.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .featured-contents-two{
+        width: 90%;
+        display: flex;
+        flex-direction: row-reverse;
+        height: 70vh;
+        background-color: rgb(255, 255, 255);
+        margin:55px auto ;
+        
+    }
+    .featured-text-beverage{
+        width: 40%;
+        text-align: right;
+    }
+    .featured-image-beverage{
+        width: 55%;
+        height: 65vh;
+        margin: auto;
+        background: url(images/beverage.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .featured-contents-three{
+        width: 90%;
+        display: flex;
+        height: 70vh;
+        background-color: rgb(255, 255, 255);
+        margin:55px auto ;
+        
+    }
+    .featured-text-cake{
+        width:40%;
+    }
+    .featured-image-cake{
+        width: 55%;
+        height: 65vh;
+        margin: auto;
+        background: url(images/cakes&muffins.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+   
+  
+
+}
+/*for ipad pro*/
+@media (min-width:1024px) and (max-width: 1366px) {
+    .nav-mid a{
+        text-align: right;
+        
+        display: inline-flex;
+       text-decoration: none;
+       margin-top: 3vh;
+        padding: 20px 30px;
+        font-size: 30px;
+    }
+    .page1-reserve-form {
+        margin: auto;
+        height:max-content;
+        border-radius: 10px;
+        
+        background-position: center;
+        background-size: cover;
+        width: 50%;
+    }
+    .about-img{
+        width: 45%;
+        height: 55vh;
+       margin:  auto;
+        background-image: url(images/cake.png);
+        background-position: center;
+        background-size: cover;
+    }
+}
+/* for ipad potrait*/
+@media (min-width: 1024px) and (max-height: 768px){
+   .nav{
+       height: 10vh;
+   }
+    .page1{
+      
+        width: 100%;
+        margin: auto;
+       height: 70vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .page1-reserve-form {
+        margin: auto;
+        height:max-content;
+        border-radius: 10px;
+        
+        background-position: center;
+        background-size: cover;
+        width: 50%;
+    }
+
+}
+
+/*for Mobile phones lanscape mode*/
+    @media (min-width:280px) and (max-width: 767px) {
+        .header{
+            height: max-content;
+        }
+       
+        .logo{
+        width: 70%;
+        text-align: left;
+        }
+        #logo{
+            width: 300px;
+            height: 80px;
+            background-image: url(images/logo.png);
+            background-position: center;
+            background-size: cover;
+            margin-left: -60px;
+        }
+        .logo h2{
+        margin-top: 4vh;
+        margin-left:25px;
+        font-size: 25px;
+    }
+        .min{
+        display: flex;
+        width:30%;
+      flex-direction: row-reverse;
+ 
+    }
+    .nav-mid{
+        display: none;
+    }
+    #segment{
+        margin-top: 4vh;
+        margin-right: 15px;
+        font-size: 35px;
+    }
+    #segment1{display: none;
+        margin-top: 4vh;
+        margin-right: 15px;
+        font-size: 35px;
+    }
+    #navigation-div{
+        width: 0%;
+        height: 90vh;
+        margin-top:10vh ;
+        margin-right: -50%;
+        right: 50%;
+        position: fixed;
+     
+        text-align: center;
+        z-index: 99;
+        transition: ease-in-out .5s;
+        background-color: #a68c68;
+     
+    }
+    
+    .navigation-div a{
+        text-decoration: none;
+        margin-top: 50px;
+        display: flex;
+        line-height: 50px;
+        justify-content: center;
+        color: #000;
+        line-break: strict;
+        font-family: 'Staatliches', cursive;
+    }
+    .page1{
+        height:100vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    
+    .page1-text{
+        height: 20vh;
+        width: 100%;
+        text-align:center;
+        font-family: 'Staatliches', cursive;
+        margin: 40vh auto;
+    }
+    .page1-text h2{
+        font-size: 40px;
+        color: rgb(79 42 6);
+    }
+    .page1-reserve-form {
+        margin: auto;
+        height: 48vh;
+        border-radius: 10px;
+        background-color: #a68c68;
+        background-position: center;
+        background-size: cover;
+        width: 70%;
+    }
+    .page1-reserve-form h1{
+        text-align: center;
+        margin-top: 4vh;
+        font-size: 20px;
+    }
+    .reservation-form{
+        align-self: auto;
+        line-height: 25px;
+       height: max-content;
+
+    }
+    label{
+        margin-left: 20px;
+        font-size: 15px;
+        
+    }
+    #fname,#fmail,#fnumber,#fdate,#ftime{
+        background: transparent;
+        border-bottom: .5px solid white;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: auto;
+        font-size: 12px;
+        color: aliceblue;
+    }
+    #fsubmit{
+        margin-top: 35px;
+        margin-left: 25%;
+       background: none;
+        padding: 7px 30px;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+    .about{
+        height: max-content;
+    }
+    .about-section{
+        flex-direction:row-reverse;
+        flex-wrap: wrap;
+        
+        height: max-content;
+    }
+    video{
+        margin-top: 10vh;
+        width: 70px;
+        border-radius: 50%;
+    }
+    .about-head h2{
+        font-family: 'Staatliches', cursive;
+        font-size: 30px;
+        margin-top: 5vh;
+        text-align: center;
+        margin-right: 0px;
+    }
+    .about-img{
+        width: 95%;
+        height: 50vh;
+        background-image: url(images/cake.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .about-text{
+        width: 80%;
+        height: max-content;
+        margin-top: 0vh;
+        text-align: center;
+      
+    }
+    .about-detail-part-text h3{
+        font-size: 25px;
+    }
+    #about-detail-last{
+       margin-bottom: 10vh;
+    }
+    .about-detail-part{
+        height: max-content;
+        margin: auto;
+    }
+    .featured{
+        height: max-content;
+        background-color: rgb(255, 255, 255);
+    }
+    .featured-content h2{
+        font-size: 25px;
+    }
+    .featured-content p{
+        font-size: 17px;
+    }
+    .featured-heading{
+       display: flex;
+        height: 20vh;
+        text-align: center;
+    }
+    .featured-heading h1{
+        font-size: 30px;
+        margin: 10vh auto;
+    }
+    .featured-content{
+        height:max-content;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+        
+    }
+    
+    .featured-contents-one{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        height: max-content;
+        background-color: rgb(255, 255, 255);
+        margin:55px auto ;
+        
+    }
+    .featured-text-coffee{
+        width: 80%;
+        margin: auto;
+        height: 40vh;
+    }
+    .featured-image-coffee{
+        width: 90%;
+        height: 65vh;
+        margin: auto;
+        background: url(images/Coffee.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .featured-contents-two{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        height: max-content;
+        background-color: rgb(255, 255, 255);
+        margin:55px auto ;
+        
+    }
+    .featured-text-beverage{
+        width: 80%;
+        margin: auto;
+        height: 40vh;
+    }
+    .featured-image-beverage{
+        width: 90%;
+        height: 65vh;
+        margin: auto;
+        background: url(images/beverage.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .featured-contents-three{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        height: max-content;
+        height: 70vh;
+        background-color: rgb(255, 255, 255);
+        margin:55px auto ;
+        
+    }
+    .featured-text-cake{
+        width: 80%;
+        margin: auto;
+        height: 40vh;
+    }
+    .featured-image-cake{
+        width: 90%;
+        height: 65vh;
+        margin: auto;
+        background: url(images/cakes&muffins.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+  
+    }
+   
+
+
