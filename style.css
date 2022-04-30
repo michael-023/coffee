@@ -117,9 +117,10 @@
     .reservelink{
         margin:40vh auto;
         list-style: none;
-        padding: 10px 20px;
-        
-        background-color: rgb(6, 218, 147);
+        padding: 10px 30px;
+        font-size: 25px;
+        border-radius: 5px;
+        background-color: #fcc31e;
     }
     .reservelink  :hover{
         color: rgb(0, 0, 0);
@@ -317,7 +318,48 @@
         background-position: center;
         background-size: cover;
     }
-
+    .reserve-remainder{
+        height: max-content;
+        min-height: 60vh;
+        background-color: #ffffff;
+    }
+    .reserve-remainder-banner{
+        display: flex;
+        height: 65vh;
+        width: 96%;
+        text-align: center;
+        margin:5vh auto;
+        background-color: #fcc31e;
+        background: url(images/banner.png);
+        background-size: cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        
+        border-radius: 5px;
+    }
+    .banner-h3{
+        
+        margin: 10vh auto;
+        font-size: 35px;
+    }
+    .banner-h3 p{
+        font-size: 30px;
+    }
+    .banner-reserveid a{
+        padding: 10px 30px;
+        color: brown;
+        text-decoration: none;
+        font-size: 30px;
+       
+        border:.7px solid black;
+    }
+    .banner-reserveid  :hover{
+        color: rgb(0, 0, 0);
+        border-radius: 5px;
+        border:2px solid brown;
+        -webkit-transition: all .500s ease;
+        transition: all .500s ease;
+    }
 
 
 
@@ -527,6 +569,45 @@
         background-position: center;
         background-size: cover;
     }
+    .reserve-remainder-banner{
+        display: flex;
+        height: 45vh;
+        width: 96%;
+        text-align: center;
+        margin:5vh auto;
+        background-color: #fcc31e;
+        background: url(images/banner.png);
+        background-size: cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        
+        border-radius: 5px;
+    }
+    .banner-h3{
+        
+        margin: 10vh auto;
+        font-size: 25px;
+    }
+    .banner-h3 p{
+        font-size: 20px;
+    }
+    .banner-reserveid a{
+        padding: 10px 30px;
+        color: brown;
+        text-decoration: none;
+        font-size: 20px;
+       
+        border:.7px solid black;
+    }
+    .banner-reserveid  :hover{
+        color: rgb(0, 0, 0);
+        border-radius: 5px;
+        border:2px solid brown;
+        -webkit-transition: all .500s ease;
+        transition: all .500s ease;
+    }
+
+
 
    
   
@@ -657,17 +738,8 @@
         justify-content: center;
         
     }
-    
-    .page1-text{
-        height: 20vh;
-        width: 100%;
-        text-align:center;
-        font-family: 'Staatliches', cursive;
-        margin: -30vh auto;
-    }
-    .page1-text h2{
-        font-size: 30px;
-        
+    .reservelink{
+        padding: 10px 18px;
     }
    
     .about{
@@ -835,6 +907,49 @@
         background-position: center;
         background-size: cover;
     }
+    .reserve-remainder{
+        height: auto;
+        min-height: 40vh;
+    }
+    .reserve-remainder-banner{
+        display: flex;
+        height: 35vh;
+        width: 96%;
+        text-align: center;
+        margin:0vh auto;
+        background-color: #fcc31e;
+        background: url(images/banner.png);
+        background-size: cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        
+        border-radius: 5px;
+    }
+    .banner-h3{
+        
+        margin: 7vh auto;
+        font-size: 18px;
+    }
+    .banner-h3 p{
+        font-size: 12px;
+    }
+    .banner-reserveid a{
+        padding: 10px 18px;
+        color: brown;
+        text-decoration: none;
+        font-size: 15px;
+       
+        border:.7px solid black;
+    }
+    .banner-reserveid  :hover{
+        color: rgb(0, 0, 0);
+        border-radius: 5px;
+        border:2px solid brown;
+        -webkit-transition: all .500s ease;
+        transition: all .500s ease;
+    }
+
+
 
   
     }
