@@ -70,6 +70,11 @@
         padding: 20px 30px;
         font-size: 20px;
     }
+    .nav-mid  :hover{
+        color: rgb(240 82 82);
+        -webkit-transition: all 1s ease;
+        transition: all 1s ease;
+    }
     .min{
        display: none;
     }
@@ -115,6 +120,11 @@
         padding: 10px 20px;
         
         background-color: rgb(6, 218, 147);
+    }
+    .reservelink  :hover{
+        color: rgb(0, 0, 0);
+        -webkit-transition: all 1s ease;
+        transition: all 1s ease;
     }
     .reservelink li a{
        text-decoration: none;
