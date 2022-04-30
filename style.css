@@ -324,6 +324,28 @@
         background-position: center;
         background-size: cover;
     }
+    .featured-contents-four{
+        width: 90%;
+        display: flex;
+        flex-direction: row-reverse;
+        height: 70vh;
+        background-color: rgb(255, 255, 255);
+        margin:55px auto ;
+        
+    }
+    .featured-text-fastyz{
+        width: 55%;
+        margin:10vh auto;
+        text-align: right;
+    }
+    .featured-image-fastyz{
+        width: 40%;
+        height: 65vh;
+        margin: auto;
+        background: url(images/fastyz.png);
+        background-position: center;
+        background-size: cover;
+    }
 
 
 
@@ -552,6 +574,27 @@
         height: 65vh;
         margin: auto;
         background: url(images/cakes&muffins.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .featured-contents-four{
+        width: 90%;
+        display: flex;
+        flex-direction: row-reverse;
+        height: 70vh;
+        background-color: rgb(255, 255, 255);
+        margin:55px auto ;
+        
+    }
+    .featured-text-fastyz{
+        width: 40%;
+        text-align: right;
+    }
+    .featured-image-fastyz{
+        width: 55%;
+        height: 65vh;
+        margin: auto;
+        background: url(images/fastyz.png);
         background-position: center;
         background-size: cover;
     }
@@ -830,7 +873,7 @@
         display: flex;
         flex-wrap: wrap;
         height: max-content;
-        height: 70vh;
+        
         background-color: rgb(255, 255, 255);
         margin:55px auto ;
         
@@ -845,6 +888,29 @@
         height: 65vh;
         margin: auto;
         background: url(images/cakes&muffins.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .featured-contents-four{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        height: max-content;
+        background-color: rgb(255, 255, 255);
+        margin:55px auto ;
+        
+    }
+    .featured-text-fastyz{
+        width: 80%;
+        margin: auto;
+        height: 40vh;
+    }
+    .featured-image-fastyz{
+        width: 90%;
+        height: 65vh;
+        margin: auto;
+        background: url(images/fastyz.png);
         background-position: center;
         background-size: cover;
     }
