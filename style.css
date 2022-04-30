@@ -30,7 +30,7 @@
         display: flex;
        
         flex-wrap: wrap;
-        position: fixed;
+        
         /*box-shadow: 0 0 11px rgba(33,33,33,.2); */
     }
     .logo{
@@ -98,7 +98,8 @@
     }
     
     .page1{
-        height:75vh;
+        height: auto;
+        max-height:75vh;
         width: 100%;
         margin: auto;
      
@@ -107,13 +108,23 @@
         flex-direction: row;
        
     }
-    
+    .reservelink{
+        margin:40vh auto;
+        list-style: none;
+        padding: 10px 20px;
+        
+        background-color: rgb(6, 218, 147);
+    }
+    .reservelink li a{
+       text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
     .page1-text{
-        height: 20vh;
+        min-height: 20vh;
         width: 100%;
         text-align:center;
         font-family: 'Staatliches', cursive;
-        margin:60vh auto;
+        margin:-30vh auto;
     }
     .page1-text h2{
         font-size: 70px;
@@ -399,7 +410,7 @@
        
     }
     .page1-text{
-      margin: 60vh auto;
+      margin: -30vh auto;
         
     }
     .page1-text-h1{
@@ -684,10 +695,10 @@
         width: 100%;
         text-align:center;
         font-family: 'Staatliches', cursive;
-        margin: 60vh auto;
+        margin: -30vh auto;
     }
     .page1-text h2{
-        font-size: 40px;
+        font-size: 30px;
         color:#000;
     }
    
