@@ -132,51 +132,12 @@
         font-size: 70px;
         color: #548497;
     }
-    .page1-reserve-form{
-        margin: auto;
-        height: 65vh;
-        border-radius: 10px;
-        background-color: #a68c68;
-        box-shadow: 0 0 11px rgba(12, 12, 12, 0.2); 
-        background-position: center;
-        background-size: cover;
-        width: 30%;
-        
-    }
-    .page1-reserve-form h1{
-        text-align: center;
-        margin-top: 7vh;
-        font-size: 30px;
-    }
-    .reservation-form{
-        align-self: auto;
-        line-height: 45px;
-        margin-top: 5vh;
-
-    }
+    
     label{
         margin-left: 20px;
         font-size: 30px
     }
-    #fname,#fmail,#fnumber,#fdate,#ftime{
-        background: transparent;
-        border-bottom: .5px solid white;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        height: auto;
-        font-size: 28px;
-        color: aliceblue;
-    }
-    #fsubmit{
-        margin-top: 35px;
-        margin-left: 30%;
-       background: none;
-        padding: 15px 50px;
-        border: 1px solid black;
-        border-radius: 5px;
-        font-size: 25px;
-    }
+    
     
     .about{
         height:100vh;
@@ -442,49 +403,7 @@
         font-size: 70px;
         text-align: center;
     }
-    .page1-reserve-form {
-        margin: auto;
-        height: max-content;
-        border-radius: 10px;
-        background-color: #a68c68;
-        background-position: center;
-        background-size: cover;
-        width: 58%;
-    }
-    .page1-reserve-form h1{
-        text-align: center;
-        margin-top: 4vh;
-        font-size: 30px;
-    }
-    .reservation-form{
-        align-self: auto;
-        line-height: 15px;
-        margin-top: 5vh;
-        height: max-content;
-    }
-    label{
-        margin-left: 20px;
-        font-size: 30px
-    }
-    #fname,#fmail,#fnumber,#fdate,#ftime{
-        background: transparent;
-        border-bottom: .5px solid white;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        height: auto;
-        font-size: 28px;
-        color: aliceblue;
-    }
-    #fsubmit{
-        margin-top: 35px;
-        margin-left: 30%;
-       background: none;
-        padding: 20px 40px;
-        border: 1px solid black;
-        border-radius: 5px;
-        font-size: 25px;
-    }
+  
     .about{
         height: max-content;
     }
@@ -515,7 +434,7 @@
         margin: auto 37px;
     }
   
-    .featured-text-coffee ,.featured-text-beverage ,.featured-text-cake{
+    .featured-text-coffee ,.featured-text-beverage ,.featured-text-fastyz,.featured-text-cake{
         margin: 15vh auto;
     }
     .featured-contents-one{
@@ -647,15 +566,7 @@
         justify-content: center;
         
     }
-    .page1-reserve-form {
-        margin: auto;
-        height:max-content;
-        border-radius: 10px;
-        
-        background-position: center;
-        background-size: cover;
-        width: 50%;
-    }
+    
 
 }
 
