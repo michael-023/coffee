@@ -17,7 +17,7 @@
     .header{ 
         height: max-content;
         width: 100%;
-        background: url(images/cover1.png);
+        background: url(images/cover2.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -50,6 +50,7 @@
         margin-top: 2vh;
         margin-left: 100px;
         font-size: 40px;
+       
     }
     .nav-mid{
    
@@ -65,9 +66,9 @@
         text-align: right;
         display: inline-flex;
        text-decoration: none;
-        color: #202020;
-        padding: 20px 40px;
-        font-size: 30px;
+        color: #dbd1d1;
+        padding: 20px 30px;
+        font-size: 20px;
     }
     .min{
        display: none;
@@ -125,10 +126,11 @@
         text-align:center;
         font-family: 'Staatliches', cursive;
         margin:-30vh auto;
+        
     }
     .page1-text h2{
         font-size: 70px;
-        color: rgb(24, 24, 23);
+        color: #548497;
     }
     .page1-reserve-form{
         margin: auto;
@@ -647,19 +649,21 @@
         display: none;
     }
     #segment{
+        color: #a68c68;
         margin-top: 4vh;
         margin-right: 15px;
         font-size: 35px;
     }
     #segment1{display: none;
         margin-top: 4vh;
+        color: #a68c68;
         margin-right: 15px;
         font-size: 35px;
     }
     #navigation-div{
         width: 0%;
         height: 90vh;
-        margin-top:10vh ;
+        margin-top:0vh ;
         margin-right: -50%;
         right: 50%;
         position: fixed;
@@ -667,7 +671,7 @@
         text-align: center;
         z-index: 99;
         transition: ease-in-out .5s;
-        background-color: #a68c68;
+        background-color: #000000;
      
     }
     
@@ -677,7 +681,7 @@
         display: flex;
         line-height: 50px;
         justify-content: center;
-        color: #000;
+        color: rgb(255, 255, 255);
         line-break: strict;
         font-family: 'Staatliches', cursive;
     }
@@ -699,7 +703,7 @@
     }
     .page1-text h2{
         font-size: 30px;
-        color:#000;
+        
     }
    
     .about{
@@ -848,4 +852,5 @@
   
     }
    
+
 
